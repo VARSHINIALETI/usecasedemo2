@@ -14,6 +14,7 @@ provider "azurerm" {
   client_secret = var.secret2_value
   tenant_id = var.secret3_value
   subscription_id = var.secret4_value
+
 }
 
 module "RG" {
@@ -48,7 +49,8 @@ module "Compute" {
      identity_type                   = var.identity_type
 
      lb_sku                          = var.lb_sku
-     network_plugin                  = var.network_plugin 
+     network_plugin                  = var.network_plugin
+     depends_on                      =[module.RG] 
 }
 
 module "Security" {
@@ -73,7 +75,7 @@ module "Security" {
   secret4_name                          = var.secret4_name
   secret4_value                         = var.secret4_value
   object_id                             = var.object_id 
-
+  depends_on                            = [module.RG]
  
 
 }
@@ -83,7 +85,7 @@ module "ManagementGroup" {
 
   display_name                          = var.display_name
 
-  
+  depends_on                            = [module.RG]
 }
 
 
