@@ -1,8 +1,6 @@
 resource_group_name                                 = "My-Rg"
 resource_group_location                             = "CentralIndia"
-acr_name                                            = "myacr2000"
-acr_sku                                             = "Standard"
-acr_admin_enabled                                   =  false
+acr_name                                            = "myacrv20768
 cluster_name                                        = "my-aks-cluster"
 kubernetes_version                                  = "1.26.3"
 node_pool_name                                      = "system"
@@ -15,7 +13,7 @@ identity_type                                       = "SystemAssigned"
 lb_sku                                              = "standard"
 network_plugin                                      = "kubenet"
 dns_prefix                                          = "my-aks-cluster"
-  key_vault_name                                    = "var1435keyvault"
+  key_vault_name                                    = "var5467keyvault"
 
   soft_delete_retention_days                        = 7
 
