@@ -40,20 +40,20 @@ dns_prefix                                          = "my-aks-cluster"
 
   secret1_name                          = "clientID"
 
-  secret1_value                         = "246dd74b-338f-47b6-9438-87ae8bd99a01"
+  secret1_value                         = "21813310-5b23-4500-9050-c99a2594cf40"
 
   secret2_name                          = "clientsecret"
 
-  secret2_value                         = "7Oo8Q~Wj82KG.9sjHxpyA~HlXo-~.5kd-WPK8bYz"
+  secret2_value                         = "Zx88Q~9xcvhOUoN9l6DlM3H6ctv4hX~G64xFMb6M"
 
   secret3_name                          = "tenantID"
 
-  secret3_value                         = "47d7e33c-9155-404f-914e-6610aa428fcc"
+  secret3_value                         = "750f2040-ab7f-42ed-8001-36ba05e30750"
 
   secret4_name                          = "subscriptionID"
 
-  secret4_value                         = "91e9f238-396d-4de8-b851-c0465f790b4a"
+  secret4_value                         = "a1085f45-3c41-4277-b3a7-cd100aaffb99"
 
-  object_id                             = "bdaf7280-c69f-4d52-89dd-a0631103d277"
+  object_id                             = "86f26d22-6fce-4ecc-96bf-d649be38af13"
 
   display_name                          = "parentgroup"
